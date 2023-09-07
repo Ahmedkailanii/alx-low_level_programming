@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -S $CFILE=1-main.c   
+gcc -c $CFILE > ${CFILE::-2}”.o” 
+   

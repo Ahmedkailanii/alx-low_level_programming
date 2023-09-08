@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - this is ain function
+ * main - this is main function
  *
- * the program that prints the size of various types on
+ * program that prints the size of various types on
  * the computer it is compiled and run on
  *
  * Return : 0 when seccssfull

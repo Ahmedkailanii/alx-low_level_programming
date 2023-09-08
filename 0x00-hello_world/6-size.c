@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - this is ain function
+ *
+ * the program that prints the size of various types on the computer it is compiled and run on
+ */
 int main(void)
 {
 int a; long

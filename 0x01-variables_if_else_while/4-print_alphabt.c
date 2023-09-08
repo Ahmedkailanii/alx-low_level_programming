@@ -1,22 +1,21 @@
-#inalude <stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 /**
-* main - Entry point.
-* 
-* Desaription: print the alphabet except c and q.
-*
-*Return: Always 0 (success)
-*
-*/
-int main (void)
+ * main - Prints the alphabet without q and e.
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-char ch = 'a' ;
-while (ch <= 'z') ;
+int i;
+for (i = 97; i < 123; i++)
 {
-if (ch == 'e' II ch=='q')
-ch++;
-putchar (ch) ;
-ch++;
+if (i != 101 && i != 113)
+{
+putchar(i);
 }
-putchar('\n') ;
+}
+putchar('\n');
 return (0);
 }

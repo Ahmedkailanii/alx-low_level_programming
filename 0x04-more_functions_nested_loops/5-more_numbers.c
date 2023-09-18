@@ -13,6 +13,6 @@ if (j >= 10)
 _putchar('1');
 _putchar (j % 10 + '0');
 }
- _putchar('\n');
+_putchar('\n');
 }
 }
